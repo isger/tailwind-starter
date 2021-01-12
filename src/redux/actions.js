@@ -1,13 +1,17 @@
-import {INCREMENT, DECREMENT} from "./actionTypes";
+import {INCREMENT, DECREMENT, SELECT_PLATFORM} from "./actionTypes";
 
 
 export const incrementCounter = _ => ({
     type: INCREMENT,
-    // payload: {
-    // }
-    // if you would need a payload, you could pass it here for example which is commented out now
 });
 
 export const decrementCounter = _ => ({
     type: DECREMENT,
+});
+
+export const selectPlatform = (platform) => ({
+    type: SELECT_PLATFORM,
+    payload: {
+        platform
+    }
 });

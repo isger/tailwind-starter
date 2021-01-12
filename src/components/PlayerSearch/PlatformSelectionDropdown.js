@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from "classnames";
+import { selectPlatform } from "../../redux/actions";
 
 const platforms = [{display: 'Xbox', value: 'xbl'}, {display: 'Playstation', value: 'psn'}, {display: 'Battle.net', value: 'battle'}, {display: 'Activision', value: 'acti'}];
 
@@ -25,7 +26,9 @@ const PlatformSelectionDropdown = (props) => {
                         <div
                             className="flex w-full items-center p-6 pl-2 border-transparent bg-white border-l-2 relative hover:bg-teal-600 hover:text-teal-100 hover:border-teal-600">
                             <div className="w-full items-center flex">
-                                <div className="mx-2 leading-6 text-xl">{platform.display}</div>
+                                <button
+                                    onClick={() => {selectPlatform(platform)}}
+                                    className="mx-2 leading-6 text-xl">{platform.display}</button>
                             </div>
                         </div>
                     </li>

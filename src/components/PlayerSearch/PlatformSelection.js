@@ -1,15 +1,23 @@
 import React, { useState } from 'react';
+import { useSelector } from "react-redux";
+
 import PlatformSelectionDropdown from "./PlatformSelectionDropdown";
 
+
 const PlatformSelection = () => {
+    const platform = useSelector(state => state.platform)
     const [showDropdown, setShowDropdown] = useState(false);
+
+    console.log(platform.platform);
 
     return (
             <div className="flex flex-col items-center relative">
                 <div className="w-full">
                     <div className="my-2 bg-white flex border border-gray-200 rounded">
                         <div className="flex flex-auto flex-wrap" />
-                        <input className="p-4 appearance-none outline-none w-full text-gray-800 text-lg" />
+                        <input
+                            value={platform.platform.display}
+                            className="p-4 appearance-none outline-none w-full text-gray-800 text-lg" />
                             <div
                                 className="text-gray-300 w-20 py-1 pl-2 pr-1 border-l flex items-center border-gray-200">
                                 <button
