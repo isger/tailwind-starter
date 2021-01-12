@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30255269-3638-416b-bb0f-3869253e48e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ThemeToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/playerHistory.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PlayerSearch/PlatformSelectionDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerSearch/PlatformSelectionDropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -64,7 +68,7 @@
       <updated>1610401235540</updated>
       <workItem from="1610401236686" duration="7570000" />
       <workItem from="1610458364287" duration="224000" />
-      <workItem from="1610459578872" duration="9798000" />
+      <workItem from="1610459578872" duration="12104000" />
     </task>
     <servers />
   </component>
